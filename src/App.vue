@@ -1,10 +1,10 @@
 <template>
-  <header class="p-4 md:p-8 flex justify-end">
+  <header class="p-8 md:p-8 flex justify-end">
     <button
-      class="flex px-1 text-dark dark:text-light hover:bg-light hover:dark:bg-dark transition-all rounded-full"
+      class="flex justify-center items-center aspect-square w-9 md:w-11 text-dark dark:text-light hover:bg-light hover:dark:bg-dark transition-all rounded-full"
       @click="toogleMode"
     >
-      <span class="material-symbols-outlined md:text-3xl">
+      <span class="material-symbols-outlined text-2xl md:text-3xl">
         {{ isDarkMode ? "light_mode" : "dark_mode" }}
       </span>
     </button>
